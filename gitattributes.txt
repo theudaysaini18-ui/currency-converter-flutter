@@ -1,0 +1,20 @@
+# Mark this as a Dart/Flutter project
+*.dart linguist-detectable=true
+*.dart linguist-language=Dart
+
+# Exclude platform-specific code from language stats
+android/* linguist-vendored
+ios/* linguist-vendored
+web/* linguist-vendored
+linux/* linguist-vendored
+macos/* linguist-vendored
+windows/* linguist-vendored
+
+# Exclude generated files
+*.g.dart linguist-generated=true
+*.freezed.dart linguist-generated=true
+*.gr.dart linguist-generated=true
+
+# Exclude build artifacts
+build/* linguist-generated
+.dart_tool/* linguist-generated
